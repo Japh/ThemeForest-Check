@@ -116,6 +116,7 @@ class ThemeForest_Check {
 			'AdminMenu',
 			'Bad_Checks',
 			'MalwareCheck',
+			'Theme_Support',
 		);
 
 		foreach ( $themechecks as $keyindex => $check ) {
