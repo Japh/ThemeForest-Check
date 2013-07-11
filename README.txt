@@ -29,3 +29,4 @@ __The [Theme-Check](http://wordpress.org/plugins/theme-check/) plugin is require
 * First version!
 * Removes include check
 * Removes translation check
+* Removes add_*_page() checks

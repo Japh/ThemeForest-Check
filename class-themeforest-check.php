@@ -112,7 +112,8 @@ class ThemeForest_Check {
 
 		$checks_to_disable = array(
 			'IncludeCheck',
-			'I18NCheck'
+			'I18NCheck',
+			'AdminMenu'
 		);
 
 		foreach ( $themechecks as $keyindex => $check ) {
