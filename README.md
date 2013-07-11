@@ -30,3 +30,5 @@ __The [Theme-Check](http://wordpress.org/plugins/theme-check/) plugin is require
 * Removes include check
 * Removes translation check
 * Removes add_*_page() checks
+* Removes base64_* checks
+* Removes file operation checks
