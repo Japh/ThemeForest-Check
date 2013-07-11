@@ -139,7 +139,7 @@ class ThemeForest_Check {
 
 		// load all the checks in the checks directory
 		$dir = 'checks';
-		foreach (glob(dirname(__FILE__). "/{$dir}/*.php") as $file) {
+		foreach ( glob( dirname( __FILE__ ) . '/' .$dir . '/*.php' ) as $file ) {
 
 			include ( $file );
 
