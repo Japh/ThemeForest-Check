@@ -117,6 +117,8 @@ class ThemeForest_Check {
 			'Bad_Checks',
 			'MalwareCheck',
 			'Theme_Support',
+			'CustomCheck',
+			'EditorStyleCheck',
 		);
 
 		foreach ( $themechecks as $keyindex => $check ) {
