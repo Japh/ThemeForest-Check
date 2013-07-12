@@ -119,6 +119,7 @@ class ThemeForest_Check {
 			'Theme_Support',
 			'CustomCheck',
 			'EditorStyleCheck',
+			'IframeCheck',
 		);
 
 		foreach ( $themechecks as $keyindex => $check ) {

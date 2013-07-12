@@ -4,7 +4,7 @@ Donate link: http://themeforest.net/
 Tags: check, checker, guideline, review, template, test, theme, tool, upload, uploader, wordpress, themeforest.net  
 Requires at least: 3.5  
 Tested up to: 3.5  
-Stable tag: 1.0.0  
+Stable tag: 1.0.1  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -24,6 +24,10 @@ __The [Theme-Check](http://wordpress.org/plugins/theme-check/) plugin is require
 
 ## Changelog
 
+### 1.0.1
+
+* Removes check for iframes
+
 ### 1.0
 
 * First version!
@@ -33,5 +37,5 @@ __The [Theme-Check](http://wordpress.org/plugins/theme-check/) plugin is require
 * Removes base64_* checks
 * Removes file operation checks
 * Removes checks for add_theme_support(*)
-* Removed checks for readme.txt
+* Removes checks for readme.txt
 * Removes check for add_editor_style()

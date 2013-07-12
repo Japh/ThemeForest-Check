@@ -15,7 +15,7 @@
  * Plugin Name: ThemeForest-Check
  * Plugin URI:  http://themeforest.net
  * Description: A supplement to the Theme-Check plugin that adds checks for ThemeForest's WordPress Submission Requirements, and removes checks that aren't required.
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Japh
  * Author URI:  http://themeforest.net/user/Japh
  * Text Domain: themeforest-check-locale
