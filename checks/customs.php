@@ -1,6 +1,6 @@
 <?php
 
-class CustomCheck implements themecheck {
+class TF_CustomCheck implements themecheck {
 	protected $error = array();
 
 	function check( $php_files, $css_files, $other_files) {
@@ -23,4 +23,4 @@ class CustomCheck implements themecheck {
 
 	function getError() { return $this->error; }
 }
-$themechecks[] = new CustomCheck;
+$themechecks[] = new TF_CustomCheck;
