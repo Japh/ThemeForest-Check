@@ -8,11 +8,11 @@ Stable tag: 1.0.1
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
-A supplement to the Theme-Check plugin that adds checks for ThemeForest's WordPress Submission Requirements, and removes checks that aren't required.
+A supplement to the Theme-Check plugin that adds checks for ThemeForest's WordPress Theme Submission Requirements, and removes checks that aren't required.
 
 == Description ==
 
-A supplement to the Theme-Check plugin that adds checks for ThemeForest's WordPress Submission Requirements, and removes checks that aren't relevant in that context.
+A supplement to the Theme-Check plugin that adds checks for ThemeForest's WordPress Theme Submission Requirements, and removes checks that aren't relevant in that context.
 
 __The [Theme-Check](http://wordpress.org/plugins/theme-check/) plugin is required for this plugin to work.__
 
@@ -27,6 +27,7 @@ __The [Theme-Check](http://wordpress.org/plugins/theme-check/) plugin is require
 = 1.0.1 =
 
 * Removes check for iframes
+* Adds some info to the Theme-Check screen to show it's running
 
 = 1.0 =
 

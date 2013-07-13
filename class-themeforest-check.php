@@ -66,6 +66,10 @@ class ThemeForest_Check {
 		// Load plugin text domain
 		add_action( 'init', array( $this, 'load_plugin_textdomain' ) );
 
+		// Load admin style sheet and JavaScript.
+		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_styles' ) );
+		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_scripts' ) );
+
 		add_action( 'themecheck_checks_loaded', array( $this, 'disable_checks' ) );
 		add_action( 'themecheck_checks_loaded', array( $this, 'add_checks' ) );
 
@@ -147,6 +151,50 @@ class ThemeForest_Check {
 			include ( $file );
 
 		}
+	}
+
+	/**
+	 * Register and enqueue admin-specific style sheet.
+	 *
+	 * @since     1.0.1
+	 */
+	public function enqueue_admin_styles() {
+
+		$screen = get_current_screen();
+		if ( 'appearance_page_themecheck' == $screen->id ) {
+
+			if ( ! isset( $_POST[ 'themename' ] ) ) {
+				wp_enqueue_style( $this->plugin_slug .'-admin-styles', plugins_url( 'css/admin.css', __FILE__ ), array(), $this->version );
+			}
+
+		}
+
+	}
+
+	/**
+	 * Register and enqueue admin-specific JavaScript.
+	 *
+	 * @since     1.0.1
+	 */
+	public function enqueue_admin_scripts() {
+
+		$screen = get_current_screen();
+		if ( 'appearance_page_themecheck' == $screen->id ) {
+			wp_enqueue_script( $this->plugin_slug . '-admin-script', plugins_url( 'js/admin.js', __FILE__ ), array( 'jquery' ), $this->version );
+
+			if ( ! isset( $_POST[ 'themename' ] ) ) {
+
+				$intro = '';
+				$intro .= '<h2><img src="' . plugins_url( 'img/themeforest-logo-mini.png', __FILE__ ) . '" /> ThemeForest-Check</h2>';
+				$intro .= '<p>A supplement to the Theme-Check plugin that adds checks for ThemeForest\'s WordPress Theme Submission Requirements, and removes checks that aren\'t required.</p>';
+
+				$tfc_intro['text'] = $intro;
+
+				wp_localize_script( $this->plugin_slug . '-admin-script', 'tfc_intro', $tfc_intro );
+
+			}
+		}
+
 	}
 
 }
