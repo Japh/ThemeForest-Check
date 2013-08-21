@@ -4,7 +4,7 @@ Donate link: http://themeforest.net/
 Tags: check, checker, guideline, review, template, test, theme, forest, tool, upload, uploader, wordpress, themeforest, theme forest, themeforest.net  
 Requires at least: 3.5  
 Tested up to: 3.6  
-Stable tag: 1.0.2  
+Stable tag: 1.0.3  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -24,7 +24,7 @@ __The [Theme-Check](http://wordpress.org/plugins/theme-check/) plugin is require
 
 ## Changelog
 
-### 1.0.2
+### 1.0.3
 
 * Updated tags to aid with plugin findability
 
