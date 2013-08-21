@@ -8,7 +8,7 @@ Stable tag: 1.0.2
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
-A supplement to the Theme-Check plugin that adds checks for ThemeForest's WordPress Theme Submission Requirements, and removes checks that aren't required.
+A supplement to the Theme-Check plugin that adds checks for ThemeForest's WordPress Theme Submission Requirements.
 
 == Description ==
 
