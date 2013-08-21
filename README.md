@@ -1,7 +1,7 @@
 # ThemeForest-Check
 Contributors: japh  
 Donate link: http://themeforest.net/  
-Tags: check, checker, guideline, review, template, test, theme, tool, upload, uploader, wordpress, themeforest.net  
+Tags: check, checker, guideline, review, template, test, theme, tool, upload, uploader, wordpress, themeforest, theme forest, themeforest.net  
 Requires at least: 3.5  
 Tested up to: 3.5  
 Stable tag: 1.0.1  
