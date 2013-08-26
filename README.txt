@@ -1,10 +1,10 @@
 === ThemeForest-Check ===
 Contributors: japh  
 Donate link: http://themeforest.net/  
-Tags: check, checker, guideline, review, template, test, theme, forest, tool, upload, uploader, wordpress, themeforest, theme forest, themeforest.net  
+Tags: check, checker, guideline, review, template, test, theme, forest, tool, upload, uploader, wordpress, themeforest, themeforest.net  
 Requires at least: 3.5  
 Tested up to: 3.6  
-Stable tag: 1.0.3  
+Stable tag: 1.0.4  
 License: GPLv2 or later  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -23,6 +23,10 @@ __The [Theme-Check](http://wordpress.org/plugins/theme-check/) plugin is require
 1. Run Theme-Check!
 
 == Changelog ==
+
+= 1.0.4 =
+
+* Fixing issue with tags
 
 = 1.0.3 =
 
